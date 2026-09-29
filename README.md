@@ -1,93 +1,61 @@
-# Arslan-fayyaz-portfolio
-A next-generation interactive 3D developer portfolio showcasing Arslan Fayyaz’s web development journey, projects, technical skills, creative experiments, and digital experiences — featuring modern UI, immersive 3D visuals, smooth animations, responsive layouts, interactive components, and a performance-focused architecture.
+# Arslan Fayyaz — Interactive 3D Portfolio
 
-ARSLAN FAYYAZ
-Creative Developer • Builder • Digital Experience Creator
+A modern, fully responsive developer portfolio designed as an immersive digital experience rather than a traditional static resume.
 
-A modern interactive portfolio built to showcase projects,
-technical skills, experiments, and the journey behind the work.
+## Highlights
 
-✦ What is this?
-This project is a fully responsive, interactive developer portfolio designed and developed from the ground up to showcase my work, technical capabilities, creative experiments, and experience building modern digital products.
-Rather than functioning as a traditional static portfolio, the project focuses on creating an immersive digital experience through interactive interfaces, 3D elements, motion design, micro-interactions, and carefully structured responsive layouts.
+- Interactive 3D hero built with React Three Fiber and Three.js
+- Smooth motion and scroll-reveal animations
+- Responsive navigation and mobile-first layout
+- Project showcase driven by structured data
+- Skills, services, journey, stats and contact sections
+- Interactive project cards and hover states
+- Contact form with EmailJS integration
+- Client-side validation with clear error/success states
+- CV download placeholder
+- Personal profile image placeholder
+- Accessible semantic sections and reduced-motion support
+- Vite-powered development and production build
 
-✦ What you'll find
-→ Interactive 3D experience
-→ Modern responsive interface
-→ Animated hero section
-→ Smooth page transitions
-→ Scroll-based animations
-→ Interactive project showcase
-→ Technology/skills section
-→ Development journey
-→ Services
-→ Achievements & statistics
-→ Contact experience
-→ GitHub project integration
-→ Responsive mobile navigation
-→ Custom interactions
-→ Performance-focused components
+## Stack
 
-✦ Technologies
-React
-JavaScript
-Vite
-Tailwind CSS
-Three.js
-React Three Fiber
-Framer Motion
-HTML5
-CSS3
-Git
-GitHub
-Vercel
-Lekin ek important baat: README mein hum sirf woh technologies/features final mein list karenge jo hum actually website mein implement karenge. Pehle se fake claims nahi karenge.
+React • Vite • JavaScript • Tailwind CSS • Framer Motion • Three.js • React Three Fiber • Drei • Lucide React • EmailJS
 
-✦ Architecture
-src/
-├── assets/
-├── components/
-├── data/
-├── hooks/
-├── App.jsx
-├── main.jsx
-└── index.css
+## Setup
 
-✦ Responsive Design
-Desktop
-Tablet
-Mobile
+```bash
+npm install
+npm run dev
+```
 
-✦ Interactive Experience
-3D interactions
-Hover effects
-Magnetic buttons
-Animated typography
-Scroll reveals
-Card tilt effects
-Cursor interactions
-Micro-interactions
-Loading experience
+Open the local URL shown by Vite.
 
-✦ Project Showcase
+## Contact form setup
 
-Project
-├── Overview
-├── Problem
-├── Solution
-├── Technologies
-├── Features
-├── GitHub
-└── Live Demo
+The form is prepared for EmailJS. Create an EmailJS service/template, then create a `.env.local` file:
 
-⭐ Professional README
-⭐ Screenshots
-⭐ Live Demo
-⭐ Project architecture
-⭐ Feature list
-⭐ Tech stack
-⭐ Installation guide
-⭐ Development guide
-⭐ Responsive previews
-⭐ Future improvements
-⭐ License / usage information
+```env
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+The destination email configured for this portfolio is `arslanfayyaz1997@gmail.com`.
+
+Never put an email account password or SMTP password in frontend code.
+
+## Personal files
+
+Replace:
+
+- `public/profile-placeholder.svg` with your portrait if desired (or keep the elegant placeholder)
+- `public/Arslan-Fayyaz-CV.pdf` with your CV
+- project image URLs/data in `src/data/projects.js`
+
+## Production
+
+```bash
+npm run build
+```
+
+The generated `dist` folder can be deployed to Vercel or another static hosting platform.
