@@ -10,6 +10,7 @@ technical skills, experiments, and the journey behind the work.
 ✦ What is this?
 This project is a fully responsive, interactive developer portfolio designed and developed from the ground up to showcase my work, technical capabilities, creative experiments, and experience building modern digital products.
 Rather than functioning as a traditional static portfolio, the project focuses on creating an immersive digital experience through interactive interfaces, 3D elements, motion design, micro-interactions, and carefully structured responsive layouts.
+
 ✦ What you'll find
 → Interactive 3D experience
 → Modern responsive interface
@@ -26,6 +27,7 @@ Rather than functioning as a traditional static portfolio, the project focuses o
 → Responsive mobile navigation
 → Custom interactions
 → Performance-focused components
+
 ✦ Technologies
 React
 JavaScript
@@ -40,8 +42,8 @@ Git
 GitHub
 Vercel
 Lekin ek important baat: README mein hum sirf woh technologies/features final mein list karenge jo hum actually website mein implement karenge. Pehle se fake claims nahi karenge.
+
 ✦ Architecture
-README mein project structure bhi dikha sakte hain:
 src/
 ├── assets/
 ├── components/
@@ -50,14 +52,13 @@ src/
 ├── App.jsx
 ├── main.jsx
 └── index.css
-Aur explain karenge ke components, data aur hooks ko separate kyun rakha gaya hai.
+
 ✦ Responsive Design
 Desktop
 Tablet
 Mobile
-Teenon ke liye separately optimize karenge.
+
 ✦ Interactive Experience
-README mein ye section bhi hoga:
 3D interactions
 Hover effects
 Magnetic buttons
@@ -67,9 +68,9 @@ Card tilt effects
 Cursor interactions
 Micro-interactions
 Loading experience
-Jo implement hoga wahi yahan show hoga.
+
 ✦ Project Showcase
-Har project ke liye:
+
 Project
 ├── Overview
 ├── Problem
@@ -78,9 +79,7 @@ Project
 ├── Features
 ├── GitHub
 └── Live Demo
-Isse portfolio sirf “yeh website maine banayi” nahi lagega, balki actual development work showcase karega.
-Repository ko aur professional banayenge
-Baad mein GitHub repository mein:
+
 ⭐ Professional README
 ⭐ Screenshots
 ⭐ Live Demo
