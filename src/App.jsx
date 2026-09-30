@@ -57,7 +57,7 @@ function App() {
             <motion.div initial={{ opacity: 0, scale: .9 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 1.35, duration: 1 }} className="relative mx-auto hidden w-full max-w-sm lg:block">
               <div className="absolute -inset-8 rounded-full bg-violet-500/10 blur-3xl" />
               <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-black/40 p-3 backdrop-blur-xl">
-                <img src="/profile-placeholder.svg" alt="Arslan Fayyaz profile placeholder" className="aspect-[4/5] w-full rounded-[1.5rem] object-cover" />
+                <img src="/Arslan.jpg" alt="Arslan Fayyaz profile placeholder" className="aspect-[4/5] w-full rounded-[1.5rem] object-cover" />
                 <div className="absolute bottom-7 left-7 right-7 rounded-2xl border border-white/10 bg-black/55 p-4 backdrop-blur-xl">
                   <p className="font-display text-lg font-semibold">Building in public.</p>
                   <p className="mt-1 text-xs text-white/45">Code • Design • Experiments</p>
